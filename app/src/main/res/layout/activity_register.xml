@@ -1,0 +1,149 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="10sp"
+    tools:context=".RegisterActivity">
+
+    <TextView
+        android:id="@+id/textView12"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:paddingVertical="15sp"
+        android:text="Registro"
+        android:textAlignment="center"
+        android:textSize="34sp" />
+
+    <TextView
+        android:id="@+id/textView5"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Ingrese su nombre:"
+        android:textSize="24sp" />
+
+    <EditText
+        android:id="@+id/ed_Nombre"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:hint="Nombre"
+        android:inputType="text"
+        android:textSize="24sp" />
+
+    <TextView
+        android:id="@+id/textView6"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Ingrese su Correo:"
+        android:textSize="24sp" />
+
+    <EditText
+        android:id="@+id/ed_Correo"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:hint="Correo"
+        android:inputType="textEmailAddress"
+        android:textSize="24sp" />
+
+    <TextView
+        android:id="@+id/textView7"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Ingrese su Dirección"
+        android:textSize="24sp" />
+
+    <EditText
+        android:id="@+id/ed_Direccion"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:hint="Dirección"
+        android:inputType="text"
+        android:textSize="24sp" />
+
+    <TextView
+        android:id="@+id/textView8"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Ingrese su Telefono:"
+        android:textSize="24sp" />
+
+    <EditText
+        android:id="@+id/ed_Telefono"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:hint="Telefono"
+        android:inputType="phone"
+        android:textSize="24sp" />
+
+    <TextView
+        android:id="@+id/textView9"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Ingrese su fecha de cumpleaños"
+        android:textSize="24sp" />
+
+    <EditText
+        android:id="@+id/ed_Cumpleanios"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:hint="Cumpleaños"
+        android:clickable="true"
+        android:focusable="false"
+        android:inputType="date"
+        android:textSize="24sp" />
+
+    <TextView
+        android:id="@+id/textView10"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Ingrese su contraseña"
+        android:textSize="24sp" />
+
+    <EditText
+        android:id="@+id/ed_Contra1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:hint="Contraseña"
+        android:inputType="textPassword"
+        android:textSize="24sp" />
+
+    <TextView
+        android:id="@+id/textView11"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Confirme su contraseña"
+        android:textSize="24sp" />
+
+    <EditText
+        android:id="@+id/ed_Contra2"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:ems="24"
+        android:hint="Contraseña"
+        android:inputType="textPassword"
+        android:textSize="24sp" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:gravity="center"
+        android:textAlignment="gravity">
+
+        <Button
+            android:id="@+id/btn_Enviar"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Enviar"
+            android:textSize="24sp" />
+    </LinearLayout>
+
+</LinearLayout>
